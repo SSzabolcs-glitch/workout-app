@@ -1,0 +1,96 @@
+.DailyWorkoutTable {
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    width: fit-content;
+    padding: 20px;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+}
+
+.tabledata {
+    background-color: rgb(219, 219, 219);
+    border-radius: 16px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.dailyWorkoutTitle, .date {
+    color: white;
+    font-size: 40px;
+}
+
+.date {
+    color: white;
+    font-size: 30px;
+}
+
+.titleAndDate {
+    position: relative;
+    background-color: #242424;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.sets, .reps, .weight {
+    width: 60px;
+    text-align: center;
+}
+.notes {
+    width: 250px;
+    text-align: center;
+}
+
+
+.exercisename {
+    margin: auto;
+    width: 230px;
+    text-align: left;
+}
+.exerciseequipment, .exerciseid, .exercisetarget {
+    margin: auto;
+    width: 150px;
+}
+
+
+.thName {
+    width: 250px;
+}
+.thId, .thTarget, .thEquipment {
+    width: 140px;
+}
+.thSets, .thReps, .thWeight {
+    width: 80px;
+}
+.thNotes {
+    width: 250px;
+}
+
+
+.updateExercise {
+    margin: 5px;
+    color: #fff;
+    background-color: #402263;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.deleteExercise {
+    margin: 5px;
+    color: #fff;
+    background-color: #242424;
+    border-radius: 50px;
+    width: 30px;
+}

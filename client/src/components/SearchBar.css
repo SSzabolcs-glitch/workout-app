@@ -1,0 +1,16 @@
+.SearchBar {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.searchButton {
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  padding: 0.3rem 0.25rem;
+  line-height: 1.25;
+  color: #fff;
+  background-color: #402263;
+  margin-left: 3px;
+  border-radius: 50px;
+}

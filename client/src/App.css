@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+ 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* .NavBar{
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 20px;
+} */
+.options{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:20px;
+  margin-bottom: 20px;
+  display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-family: Alegreya;
+    font-size: 24px;
+    color: aliceblue;
+    align-items: flex-end;
+}
+body{
+  /* background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+background-image: url(./Assets/TN_Website_Bench.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+color: aliceblue;
+} 
+
+.card-body{
+ /* background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+user-select: none;
+max-width: 300px;
+margin: 5rem auto;
+border: 1px solid #ffffff22;
+background-color: #282c34;
+background: linear-gradient(0deg, #282c34 0%, rgba(17, 0, 32, 0.5) 100%);
+box-shadow: 0 7px 20px 5px #00000088;
+border-radius: 0.7rem;
+backdrop-filter: blur(7px);
+-webkit-backdrop-filter: blur(7px);
+overflow: hidden;
+transition: 0.5s all;
+color: white;
+}
+
+.card-body ::before {
+  position: fixed;
+  content: "";
+  box-shadow: 0 0 100px 40px #ffffff08;
+  top: -10%;
+  left: -100%;
+  transform: rotate(-45deg);
+  height: 60rem;
+  transition: 0.7s all;
+}
+.card-body:hover {
+  border: 1px solid #ffffff44;
+  box-shadow: 0 7px 50px 10px #000000aa;
+  transform: scale(1.015);
+  filter: brightness(1.3);
+}
+.card-body:hover ::before {
+  filter: brightness(0.5);
+  top: -100%;
+  left: 200%;
+}
+
+.card{
+  background-color: transparent !important;
+}
+img[alt="gif"]{
+  height: 258px;
+	max-width: 100%;
+}
+
+.text-muted {
+  color: white!important;
+  font-size: 1rem;
+}
+.SearchBar{
+  display: flex;
+  justify-content: center;
+  top:500px
+}
+.NavBar{
+  display: flex;
+  position: sticky;
+}
+.oneRM{
+  width: 400px;
+  height: 350px;
+  padding: 20px;
+  font-size: larger;
+  color: aliceblue;
+  background: linear-gradient(rgba(40, 44, 52, 0.5), rgba(40, 44, 52, 0.5)), #282c34;
+  border-radius: 10px;
+}
+.DailyWorkoutTable{
+  color: black;
+}
